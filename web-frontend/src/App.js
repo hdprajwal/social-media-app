@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './assets/main.css'
+import Post from "./Components/Postcard";
 
 const App = ()=>{ 
 		return (
@@ -22,6 +23,7 @@ const App = ()=>{
 					<button className="inline-block bg-white rounded-full w-8 h-8"></button>
 					</div>
 				</div>
+				<Post/>
 			</div>
 		)
 	}
